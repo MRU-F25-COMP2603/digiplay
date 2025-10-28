@@ -1,4 +1,4 @@
-name: CI
+name: JavaScript Test
 on: push
 jobs:
   build:
