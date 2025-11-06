@@ -1,21 +1,27 @@
 // https://archive.jestjs.io/docs/en/22.x/getting-started
 
-const calculator = require('./calculator');
+const { add, subtract, multiply, division } = require('./calculator');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(calculator.add(1, 2)).toBe(3);
-});
+describe('Arithmetic Functions', () => {
+  
+    test('adds two numbers', () => {
+        expect(add(1, 2)).toBe(3);
+        expect(add(-1, 1)).toBe(0);
+    });
 
-test('subtract 1 - 2 to equal -1', () => {
-  expect(calculator.subtract(1, 2)).toBe(-1);
-});
+    test('subtracts two numbers', () => {
+        expect(subtract(5, 2)).toBe(3);
+        expect(subtract(0, 1)).toBe(-1);
+    });
 
+    test('multiplies two numbers', () => {
+        expect(multiply(3, 4)).toBe(12);
+        expect(multiply(-1, 5)).toBe(-5);
+    });
 
-test('divide 1 / 2 to equal 0.5', () => {
-  expect(calculator.division(1, 2)).toBe(0.5);
-});
-
-
-test('multiply 4 * 5 to equal 20', () => {
-  expect(calculator.multiply(4, 5)).toBe(20);
+    test('divides two numbers', () => {
+        expect(division(10, 2)).toBe(5);
+        expect(division(-10, 2)).toBe(-5);
+    });
+  
 });

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="0.434">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-11-06T07:24:53" time="0.332" tests="4">
-    <testcase classname="scripts/calculator.test.js" name=" adds 1 + 2 to equal 3" time="0.003">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="0.359">
+  <testsuite name="Arithmetic Functions" errors="0" failures="0" skipped="0" timestamp="2025-11-06T07:43:59" time="0.271" tests="4">
+    <testcase classname="scripts/calculator.test.js" name="Arithmetic Functions adds two numbers" time="0.002">
     </testcase>
-    <testcase classname="scripts/calculator.test.js" name=" subtract 1 - 2 to equal -1" time="0">
+    <testcase classname="scripts/calculator.test.js" name="Arithmetic Functions subtracts two numbers" time="0">
     </testcase>
-    <testcase classname="scripts/calculator.test.js" name=" divide 1 / 2 to equal 0.5" time="0">
+    <testcase classname="scripts/calculator.test.js" name="Arithmetic Functions multiplies two numbers" time="0.005">
     </testcase>
-    <testcase classname="scripts/calculator.test.js" name=" multiply 4 * 5 to equal 20" time="0">
+    <testcase classname="scripts/calculator.test.js" name="Arithmetic Functions divides two numbers" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-11-06T07:24:53" time="0.043" tests="1">
-    <testcase classname="scripts/sum.test.js" name=" adds 1 + 2 to equal 3" time="0">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-11-06T07:44:00" time="0.026" tests="1">
+    <testcase classname="scripts/sum.test.js" name=" adds 1 + 2 to equal 3" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>
