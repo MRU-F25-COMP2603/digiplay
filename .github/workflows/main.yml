@@ -51,7 +51,6 @@ jobs:
 # Newline-separated list of URLs to ignore
 #     ignore_url: # optional
 # Newline-separated list of URL regexes to ignore
-    ignore_url_re: # optional
-    # Number of times to retry checking links
-    retries: # optional
-          
+#    ignore_url_re: # optional
+# Number of times to retry checking links
+#   retries: # optional
